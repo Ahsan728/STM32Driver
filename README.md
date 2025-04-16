@@ -8,5 +8,8 @@
 ![image](https://github.com/user-attachments/assets/3f23f0c2-0617-489d-a55f-fb61e5cdd81e)
 
 SWD is the serial wire debug available in the microcontroller. 
-- SWDIO
-- SWCLK
+- SWDIO (Bidirectional data line)
+- SWCLK (Clock driven by the host)
+JTAG (Joint Test Action Group) is also another kind of debugging method.
+![image](https://github.com/user-attachments/assets/8f748d3c-21aa-4943-8ea7-cee5873b92f4)
+
