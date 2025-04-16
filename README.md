@@ -8,5 +8,5 @@
 ![image](https://github.com/user-attachments/assets/3f23f0c2-0617-489d-a55f-fb61e5cdd81e)
 
 SWD is the serial wire debug available in the microcontroller. 
--SWDIO
--SWCLK
+- SWDIO
+- SWCLK
