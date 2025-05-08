@@ -23,7 +23,7 @@ Secondary Clock Sources :
 - 32.768 KHz LSE (Low Speed External) -> Optionally drives RTC clock
 
 Clock Sources:
-1. Crystal Oscilator
-2. RC Oscilator
-3. The PLL (Phase Locked Loop)
+1. Crystal Oscilator (External to the mcu)
+2. RC Oscilator (Internal to the mcu)
+3. The PLL (Phase Locked Loop) (Internal to the mcu)
 
