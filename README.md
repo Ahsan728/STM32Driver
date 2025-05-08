@@ -23,7 +23,16 @@ Secondary Clock Sources :
 - 32.768 KHz LSE (Low Speed External) -> Optionally drives RTC clock
 
 Clock Sources:
-1. Crystal Oscilator (External to the mcu)
-2. RC Oscilator (Internal to the mcu)
+1. Crystal Oscilator (External to the mcu) (HSE)
+2. RC Oscilator (Internal to the mcu) (HSI)
 3. The PLL (Phase Locked Loop) (Internal to the mcu)
 
+**Summary of HSE** : 
+HSE can be provided to the mcu via a crystal or external source (from other ckt or from another mcu)
+
+- On the STM32-Discover board, HSE is 8MHz provided by the onboard crystal.
+- On Nucleo board, HSE is of 8MHz pulled from STlink ckt.
+
+HSI is the default clock source for the mcu, We need to enable HSE and PLL for using purpose.
+
+**MC0** (Master Clock) is the microcontroller clock output signal.
