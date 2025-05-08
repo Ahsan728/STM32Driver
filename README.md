@@ -36,3 +36,6 @@ HSE can be provided to the mcu via a crystal or external source (from other ckt 
 HSI is the default clock source for the mcu, We need to enable HSE and PLL for using purpose.
 
 **MC0** (Master Clock) is the microcontroller clock output signal.
+
+8 channel low cost logic analyzer (https://sigrok.org/wiki/Downloads)
+
