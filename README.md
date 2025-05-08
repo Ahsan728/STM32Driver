@@ -13,3 +13,17 @@ SWD is the serial wire debug available in the microcontroller.
 JTAG (Joint Test Action Group) is also another kind of debugging method.
 ![image](https://github.com/user-attachments/assets/8f748d3c-21aa-4943-8ea7-cee5873b92f4)
 
+# STM32 Clocks
+- HSI Oscilator Clock
+- HSE Oscilator Clock
+- Main PLL clock
+
+Secondary Clock Sources :
+- 32KHz LSI(Low Speed Internal) -> runs watchdog, RTC, STANDby mode
+- 32.768 KHz LSE (Low Speed External) -> Optionally drives RTC clock
+
+Clock Sources:
+1. Crystal Oscilator
+2. RC Oscilator
+3. The PLL (Phase Locked Loop)
+
